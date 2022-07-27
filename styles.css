@@ -128,7 +128,7 @@ section {
     margin: 15px auto;
     display: block;
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
     .container {
         display: contents;
     }
