@@ -132,5 +132,7 @@ section {
     .container {
         display: contents;
     }
-   
+   section {
+    margin: auto;
+   }
 }
