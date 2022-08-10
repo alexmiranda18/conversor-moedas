@@ -32,7 +32,7 @@ const convertValues = async () => {
             currency: `EUR`,
         }).format(inputreal / euro)
     }
-    if (select.value === `Bitcoin`) {
+    if (select.value === `₿ Bitcoin`) {
         dolarValueText.innerHTML = new Intl.NumberFormat(`de-DE`, {
             style: `currency`,
             currency: `BTC`,
@@ -55,8 +55,8 @@ currencyChange = () => {
         currencyName.innerHTML = `Euro`
         currencyImg.src = `./assets/euro.png`
     }
-    if (select.value === `Bitcoin`) {
-        currencyName.innerHTML = `Bitcoin`
+    if (select.value === `₿ Bitcoin`) {
+        currencyName.innerHTML = `₿ Bitcoin`
         currencyImg.src = `./assets/bitcoin.png`
     }
     convertValues()
